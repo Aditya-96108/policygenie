@@ -1,0 +1,125 @@
+# ================================
+# 🔒 Environment Variables
+# ================================
+.env
+.env.*
+*.env
+
+# ================================
+# 🐍 Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ================================
+# 📦 Build / Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ================================
+# 📊 Logs & Runtime Files
+# ================================
+*.log
+logs/
+*.out
+*.err
+
+# ================================
+# 📁 IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# ================================
+# 🧠 ML / AI Models & Cache
+# ================================
+# HuggingFace cache
+.cache/
+.huggingface/
+.hf_cache/
+
+# Torch / Transformers
+*.pt
+*.pth
+*.ckpt
+
+# Vector DB / Embeddings
+data/
+chroma_db/
+faiss_index/
+*.faiss
+*.index
+
+# ================================
+# 📡 Streamlit
+# ================================
+.streamlit/
+
+# ================================
+# 🗄️ Database
+# ================================
+*.db
+*.sqlite3
+
+# ================================
+# 📂 Uploads / Generated Files
+# ================================
+uploads/
+outputs/
+generated/
+temp/
+tmp/
+
+# ================================
+# 📄 OS Files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# 🔑 Secrets / Keys
+# ================================
+*.pem
+*.key
+*.crt
+
+# ================================
+# 🧪 Testing / Coverage
+# ================================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ================================
+# ⚙️ Docker
+# ================================
+docker-compose.override.yml
+
+# ================================
+# 📦 Node (if using Next.js frontend)
+# ================================
+node_modules/
+.next/
+out/
+
+# ================================
+# 🧾 Misc
+# ================================
+*.bak
+*.tmp
+*.temp
